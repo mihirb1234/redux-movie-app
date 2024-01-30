@@ -1,8 +1,8 @@
 
 import axios from "axios";
 
-const api = axios.create({
+const movieAPI = axios.create({
   baseURL: "https://www.omdbapi.com",
 });
 
-export default api;
+export default movieAPI;

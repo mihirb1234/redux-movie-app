@@ -2,6 +2,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import movieAPI from '../../apis/MovieAPI';
 
 
+
 // Use the API key in the request                                                //term is input from the search bar
 export const fetchAsyncMovies = createAsyncThunk('movies/fetchAsyncMovies', async (term) => {
     // const movieText = "harry";

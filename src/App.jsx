@@ -11,7 +11,7 @@ function App() {
     <div className="app">
       <Router>
         <Header />
-        <div className="container p-4 bg-slate-400">
+        <div className="container p-4">
 
         <Routes>
           <Route path="/" element={<Home />} />
