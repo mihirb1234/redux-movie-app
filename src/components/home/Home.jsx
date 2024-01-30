@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-import MovieListing from '../movie-listing/movieListing';
 
 // import { APIKey } from '../../apis/MovieApiKey';
 import { useDispatch } from 'react-redux';
 import {fetchAsyncMovies, fetchAsyncShows} from '../../features/movies/MovieSlice';
+import MovieListing from '../movie-listing/MovieListing';
 
 const Home = () => {
   
