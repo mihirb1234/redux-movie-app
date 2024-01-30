@@ -28,16 +28,16 @@ const MovieDetail = () => {
 
         <div className='movie-rating flex gap-4'>
           <span>
-            IMDB rating <i className='fas fa-star'></i>: {data.imdbRating}
+            IMDB rating : {data.imdbRating}
           </span>
           <span>
-            IMDB votes <i className='fas fa-thumbs-up'></i>: {data.imdbVotes}
+            IMDB votes : {data.imdbVotes}
           </span>
           <span>
-            Runtime <i className='fas fa-film'></i>: {data.Runtime}
+            Runtime : {data.Runtime}
           </span>
           <span>
-            Year <i className='fas fa-calendar'></i>: {data.Year}
+            Year : {data.Year}
           </span>
         </div>
 
