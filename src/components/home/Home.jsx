@@ -8,12 +8,9 @@ import MovieListing from '../movie-listing/MovieListing';
 const Home = () => {
   
   const dispatch = useDispatch();
-  const  movieText="harry"
-  const showText="friends"
   useEffect(() => {
-   
-    dispatch(fetchAsyncMovies(movieText))
-    dispatch(fetchAsyncShows(showText))
+    dispatch(fetchAsyncMovies("harry"))
+    dispatch(fetchAsyncShows("harry"))
 
   }, [dispatch]);
 
